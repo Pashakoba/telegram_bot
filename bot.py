@@ -16,7 +16,9 @@ from menu import MENU
 # НАСТРОЙКИ
 # =========================
 
-TOKEN = "ВСТАВЬ_ТОКЕН_ПОЗЖЕ"
+import os
+
+TOKEN = os.getenv("BOT_TOKEN")
 
 GROUP_ID = -5127411007
 ADMIN_ID = 457315827
